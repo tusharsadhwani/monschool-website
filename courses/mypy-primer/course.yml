@@ -11,13 +11,16 @@ instructor: tusharsadhwani
 image: mypy-image.png
 short_introduction: Learn how to implement static type checking in Python
 description: |
-  It should be no surprise that Python is a dynamically typed language. And
-  indeed, having dynamic types in your code is one of the best features of
-  Python. But dynamic types has its own problems as well, as it takes away a
-  great feature that statically typed languages like C++ and Java provide: You
-  can't accidentally pass the wrong types in them. If you pass an integer where
+  It should be no surprise that Python is a dynamically typed language. The
+  simplicity of not having to deal with types is one of the biggest reasons
+  people choose to learn Python over other languages.
+
+  But dynamic typing has its own problems as well, it takes away a great feature
+  that statically typed languages like C++ and Java provide: You can't
+  accidentally pass data of the wrong type in them. If you pass an integer where
   a string is expected in Java, your code won't compile. But in Python, your
   code will start just fine, until it crashes with a TypeError while running.
+
   Wouldn't it be great, if you could optionally write types in Python, to get
   the same type checking guarantees that statically typed languages have? Mypy
   lets you do exactly that!
